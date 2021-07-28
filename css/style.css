@@ -1,0 +1,509 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+.logo-brand{
+     display: inline;
+     margin-left: 12%;
+     margin-bottom: 15px;
+     margin-top: 17px;
+     opacity: 100%;
+
+}
+.navbar-brand{
+     float: right;
+    color: #fafad2;
+    font-size: 20px;
+    font-family: lato;
+    
+
+}
+
+.navbar{
+    background-color: #095666;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.nav-list{
+    position: absolute;
+    left: 800px;
+    top: 30px;
+}
+
+ul{
+    display: contents;
+    position: absolute;
+    left: 40%;
+    margin-top: 25px;
+}
+
+ul>li{
+    display: inline;
+    list-style-type: none;
+    color: #FFFF;
+    margin: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 292.19%;  
+}
+
+li>a{
+    text-decoration: none;
+    color: #FFFFFF; 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 292.19%;
+
+
+}
+li>a:hover{
+    color: chartreuse;
+    font-size: 16px;
+
+}
+.button1{
+    width: 172px;
+    height: 45px;
+    background: #FBDE69;
+    border-color: #FBDE69;
+    border-radius: 50px;
+    font-family: Lato;
+    color: #095666;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    right: 12%;
+    top: 25px;
+    bottom: 15px;
+}
+#container{
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.section2{
+    width: 100%px;
+    height: 820px;
+    position: relative;
+}
+.sec2-text{
+    display: block;
+    position: absolute;
+    top: 190px;
+    left: 159px;
+    width: 360px
+}
+.motto{
+    font-size: 44px;
+    font-weight: 150;
+    font-family: lato;
+    color:#3A7888;
+    line-height: 50px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+.card-info-button{
+    display: block;
+    margin-top: 120px;
+
+}
+.card-info{
+    color: #3A7888;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+}
+.button2{
+    width: 172px;
+    height: 45px;
+    margin-top: 50px;
+    background: #FBDE69;
+    border-color: #FBDE69;
+    border-radius: 50px;
+    font-family: Lato;
+    color: #095666;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.sec2-image{
+    margin-top: 0px;
+    position: absolute;
+    right: 0px;
+    width: 78%px;
+    height: 90%;
+}
+.sec2-image2{
+    position: absolute;
+    right: 180px;
+    top: 230px;
+
+}
+.section3{
+    width: 100%;
+    height: 1300px;
+    position: relative;
+}
+.svg1{
+    position: absolute;
+    right: 200px;
+}
+.svg2{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+
+}
+h1{
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    left:670px;
+    width: 300px;
+    height: 30px;
+}
+
+.grid-container{
+    position: absolute;
+    top: 20%;
+    display: inline-flex;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+
+}
+
+.bus-loan{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    left: 12%;
+}
+.edu-loan{
+    width: 333px;
+    height: 330px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 41%;
+
+}
+.car-loan{
+    width: 330px;
+    height: 330px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 70%;
+}
+.hom-loan{
+    width: 330px;
+    height: 330px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    left: 12%;
+    top: 550px;
+
+}
+.per-loan{
+    width: 330px;
+    height: 330px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 550px;
+    left: 41%;
+}
+.mar-loan{
+    width: 330px;
+    height: 330px;
+    border: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 550px;
+    left: 70%;
+}
+.grid-container a{
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    bottom: 59.7%;
+    text-decoration: none;
+    color: #BA68C8;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.grid-container p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6C6C6C;
+}
+.bus-loan>*{
+    margin-bottom: 20px;
+}
+.edu-loan>*{
+    margin-bottom: 10px;
+}
+.car-loan>*{
+    margin-bottom: 10px;
+}
+.hom-loan>*{
+    margin-bottom: 10px;
+}
+.per-loan>*{
+    margin-bottom: 10px;
+}
+.mar-loan>*{
+    margin-bottom: 10px;
+}
+.section4{
+    width: 100%;
+    height: 778px;
+    position: relative;
+}
+
+.sec4-header{
+    width: 100%;
+    height: 150px;
+    background-color: #095666;
+    position: relative;
+}
+h3{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    word-spacing: 0.1em;
+    line-height: 58px;
+    position: absolute;
+    left: 500px;
+    top: 46px;
+}
+
+.button3{
+    width: 172px;
+    height: 45px;
+    background: #FBDE69;
+    border-color: #FBDE69;
+    border-radius: 50px;
+    font-family: Lato;
+    color: #095666;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    left: 900px;
+    top: 53px;
+
+}
+h5{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+h4{
+    position: absolute;
+    top: 260px;
+    left: 45%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+
+}
+.section4-grid{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.card1{
+    position: absolute;
+    left: 12%;
+    width: 300px; 
+    height: 348px;
+}
+.card2{
+    position: absolute;
+    left: 40%;
+    width: 300px;
+    height: 348px;
+}
+.card3{
+    position: absolute;
+    left: 68%;
+    position: relative;
+    width: 300px;
+    height: 348px;
+}
+.section5{
+    width: 100%;
+    height: 464px;
+    position: relative;
+    background: rgba(196, 196, 196, 0.2);
+}
+.sec5-h3{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+}
+.sec5-grid{
+    width: 100%;
+    height: 438px;
+    position: relative;
+    top: 5%;
+}
+.adcb{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+}
+
+.cbd{
+    position: absolute;
+    left: 22%;
+    top: 50%;
+}
+
+.nbd{
+    top: 57%;
+    position: absolute;
+    left: 40%;
+}
+.db{
+    position: absolute;
+    left: 53%;
+    top: 50%;
+}
+.mashreq{
+    position: absolute;
+    right: 28%;
+    top: 50%;
+}
+.dib{
+    position: absolute;
+    right: 12%;
+    top: 50%;
+}
+.section6{
+    width: 100%;
+    height: 233px;
+}
+footer{
+    background-color: #095666;
+    width: 100%;
+    height: 233px;
+
+
+}
+.content{
+    width: 415px;
+    height: 233px;
+    display: block;
+    position: absolute;
+    left: 35%;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    margin-top: 28px;
+    margin-right: 100px;
+    
+}
+.p-div{
+    text-align: center;
+    display: -webkit-box;
+    margin-bottom: 20px;
+
+}
+.p-div p{
+    margin: 15px;
+}
+.icons{
+    display: -webkit-inline-flex;
+    margin-bottom: 30px;
+    margin-left: 70;
+}
+.content img{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.copyright{
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 4px;
+    width: 355px;
+    height: 15px;
+}
+.content p{
+    color: #fafad2;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+
