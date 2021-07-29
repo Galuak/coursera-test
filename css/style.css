@@ -70,7 +70,7 @@ li>a{
 
 }
 li>a:hover{
-    color: chartreuse;
+    color: #FBDE69;
     font-size: 16px;
 
 }
@@ -152,6 +152,7 @@ li>a:hover{
     right: 0px;
     width: 78%px;
     height: 90%;
+    
 }
 .sec2-image2{
     position: absolute;
@@ -230,6 +231,7 @@ h1{
     top: 150px;
     left: 70%;
 }
+
 .hom-loan{
     width: 330px;
     height: 330px;
@@ -268,10 +270,6 @@ h1{
     left: 70%;
 }
 .grid-container a{
-    position: absolute;
-    left: 10%;
-    top: 90%;
-    bottom: 59.7%;
     text-decoration: none;
     color: #BA68C8;
     font-family: Lato;
@@ -285,7 +283,7 @@ h1{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
     color: #6C6C6C;
 }
 .bus-loan>*{
@@ -419,34 +417,41 @@ h4{
 .adcb{
     position: absolute;
     left: 12%;
-    top: 50%;
+    top: 55%;
+    mix-blend-mode: multiply;
 }
 
 .cbd{
     position: absolute;
     left: 22%;
-    top: 50%;
+    top: 55%;
+    mix-blend-mode: multiply;
 }
 
 .nbd{
-    top: 57%;
+    top: 54%;
     position: absolute;
-    left: 40%;
+    left: 41%;
+    mix-blend-mode: multiply;
+    
 }
 .db{
     position: absolute;
     left: 53%;
     top: 50%;
+    mix-blend-mode: multiply;
 }
 .mashreq{
     position: absolute;
     right: 28%;
-    top: 50%;
+    top: 51%;
+    mix-blend-mode: multiply;
 }
 .dib{
     position: absolute;
     right: 12%;
     top: 50%;
+    mix-blend-mode: multiply;
 }
 .section6{
     width: 100%;
@@ -460,17 +465,17 @@ footer{
 
 }
 .content{
-    width: 415px;
+    width: 395px;
     height: 233px;
     display: block;
     position: absolute;
-    left: 35%;
+    left: 40%;
 }
 .logo{
     justify-content: center;
     display: flex;
     margin-top: 28px;
-    margin-right: 100px;
+    margin-right: 95px;
     
 }
 .p-div{
@@ -484,8 +489,8 @@ footer{
 }
 .icons{
     display: -webkit-inline-flex;
-    margin-bottom: 30px;
-    margin-left: 70;
+    margin-bottom: 35px;
+    margin-left: 80px;
 }
 .content img{
     margin-left: 70px;
@@ -494,7 +499,7 @@ footer{
 }
 .copyright{
     text-align: center;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 4px;
     width: 355px;
     height: 15px;
