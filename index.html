@@ -1,148 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Project Page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src="https://kit.fontawesome.com/887d60a49e.js" crossorigin="anonymous"></script>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
- <header>
-     <nav class="navbar">
-      <div class="logo-brand"> 
-     <img src="image/logo.png" width="45px" height="auto">&nbsp<div class="navbar-brand">Sarie<br> Yathiq Finance</div>
-    </div>
-    <div class="nav-list" >
-     <ul>
-        <li><a href="#services">Our Services</a></li>  
-        <li><a href="#reviews">Reviews</a></li>
-        <li><a href="#partners">Our Partners</a></li>
-     </ul>
-     </div>
-     <div>
-        <button type="button" class="button1">Register Now!</button>
-    </div>
-     
-    </nav>
- </header>
- <div id="container">
-     <div class="section2">
-    <div class="sec2-image">
-    <img src="image/Vector 1.png" width="700px" height="800px" alt="Vector">
-    </div>
-     <di class="sec2-image2">
-         <img src="image/moving forward.png" width="400px" height="400px" alt="image">
-     </di>       
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
         
-     <div class="sec2-text"><p class="motto">To Keep You<br>Moving Forward</span></p>
-        <div class="card-info-button"><p class="card-info">Get a card with a credit limit of up to 50k AED<br> without contacting your credit brokers or even<br> going to the bank.</p>
-            <button type="button" class="button2">Register Now!</button>
-        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
     </div>
-    </div>
-    
-    <div class="section3" id="services"> 
-        <svg class="svg1" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path opacity="0.6" d="M144 72C144 111.764 111.764 144 72 144C32.2355 144 0 111.764 0 72C0 32.2355 32.2355 0 72 0C111.764 0 144 32.2355 144 72Z" fill="#1B998B" fill-opacity="0.5"/>
-            </svg>
-            <svg class="svg2" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.6" d="M68 34C68 52.7777 52.7777 68 34 68C15.2223 68 0 52.7777 0 34C0 15.2223 15.2223 0 34 0C52.7777 0 68 15.2223 68 34Z" fill="#1B998B" fill-opacity="0.5"/>
-                </svg>                
-            
-        <div class="grid-container">
-            <h1>Our Services</h1>  
-        <div class="bus-loan">
-            <span><img src="image/case.png"></span>
-            <h5>Business Loan</h5>
-            <p>Whatever your business size, we are focused on providing you with all the finance services your business needs to thrive from accounts to transactions, facilities to investments.</p>
-            <a href="#">Read more...</a>
-        </div>
+  </footer>
 
-        <div class="edu-loan">
-            <span><img src="image/crown.png"></span>
-            <h5>Educational Loan</h5>
-            <p>Whatever be your reason to study, your research should end at finding the right institute. Let finance be the last thing to worry about.</p>
-            <a href="#">Read more...</a>
-        </div>
-
-        <div class="car-loan">
-            <span><img src="image/car.png" class="caricon"></span>
-            <h5>Car Loan</h5>
-            <p>Dreaming of owning a car? Avail a car loan, or opt for a pre-approved car loan, and get the best interest rates. Make your dream of owning a car come true.</p>
-            <a href="#">Read more...</a>
-        </div>
-
-        <div class="hom-loan">
-            <span><img src="image/home.png"></span>
-            <h5>Home Loan</h5>
-            <p> Whether you want to purchase a house or construct a new one, we offer a wide range of products well suited to meet your housing loan requirement.</p>
-            <a href="#">Read more...</a>
-        </div>
-
-        <div class="per-loan">
-            <span><img src="image/perloan.png"></span>
-            <h5>Personal Loan</h5>
-            <p>We offer lowest interest rates on personal loans who transfer their salaries to our service. The package includes higher loan amounts, discount on fees of processing of application.</p>
-            <a href="#">Read more...</a>
-        </div>
-
-        <div class="mar-loan">
-            <span><img src="image/couple.png"></span>
-            <h5>Marriage Loan</h5>
-            <p>The perfect location, that oh-so-gorgeous ring, mouth-watering food, a dreamy decor. Now you can have all of this and more without worrying about ready funds.</p>
-            <a href="#">Read more...</a>
-        </div>
-    </div>
-
-    </div>
-
-    <div class="section4" id="reviews">
-        <div class="sec4-header"><h3>We've got you covered.</h3><button type="button" class="button3">Register Now!</button></div>
-            
-        <h4>Reviews</h4>
-        <div class="section4-grid">
-        <div class="card1"><img src="image/card1.png" width="300px" height="348px"></div>
-        <div class="card2"><img src="image/card2.png" width="300px" height="348px"></div>
-        <div class="card3"><img src="image/card3.png" width="300px" height="348px"></div>
-        
-        </div>
-
-    </div>
-
-    <div class="section5" id="partners">
-        <div class="sec5-grid">
-            <h3 class="sec5-h3">Ours Partners</h3>
-            <div class="adcb"><img src="image/adcb.png" width="107px" height="100px"></div>
-            <div class="cbd"><img src="image/cbd.png" width="189px" height="100px"></div>
-            <div class="nbd"><img src="image/nbd.png" width="106px" height="100px"></div>
-            <div class="db"><img src="image/db.png" width="107px" height="100px"></div>
-            <div class="mashreq"><img src="image/mashreq.png" width="106px" height="100px"></div>
-            <div class="dib"><img src="image/dib.png" width="170px" height="100px"></div>
-
-        </div>
-    </div>
-
-    <div class="section6">
-        <footer>
-            <div class="content">
-            <di class="logo"><img src="image/logo.png" width="38px" height="33px"></di>
-            <div class="p-div">
-                <p>Terms of Services</p>
-                <p> Privacy Policy</p>
-                <p>Security</p>
-                <p>Sitemap</p>
-            </div>
-            <div class="icons-div"><img src="image/instag.png"><img src="image/google.png"><img src="image/fb.png"></div>
-            <p class="copyright">&copy 2021 Sarie Yathiq Finance</p>
-
-            </div>
-        </footer>
-    </div>
-
- </div> 
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
