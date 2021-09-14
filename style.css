@@ -1,429 +1,122 @@
 
 *{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
-
-nav{
-    width: 100%;
-    display: flex;
-    position: relative;
-
-}
-.nav-list{
-    position: absolute;
-    right: 20px;
-    display: flex;
-}
-.logo{
-    margin-left: 15px;
-}
- ul{
-    display: inline-flex;
-    list-style-type: none;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;  
-    margin-top: 18px;
-}
-li{
-    margin-right: 20px;
-    font-family: roboto;
-    
-}
-li a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.918);
-}
-li a:hover{
-    background-color: #d6cfcf;
-    transition: .2s ease-in-out;
-}
-.searchbutt{
-    margin-top: 10px;
-    position: absolute;
-    right: 0px;
-}
-.search-button{
-    background-image: url('images/search-icon.png');
-    background-repeat: no-repeat;
-    background-position: 5px 5px;
-    padding-bottom: 10px;
-    width: 30px;
-    margin-top: 1px;
-    border: none;
-    outline: none;
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 100%;
+	min-width: 500px;
 
 }
-header{
-    width: 100%;
-    
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
 }
-.bg1{
-    width: 100%;
-}
-.container{
-    display: grid;
-    width: 100%;
-    height: 1300px;
-    background-image: url(images/bg2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);;
+
 }
 
-form{
-    max-width: 650px;
-    max-height: 650px;
-    align-self: center;
-    position: relative;
-    font-family: roboto;
+section{
+  margin:1%;
+    padding:1%;
 }
-.formdiv-container{
-    position: absolute;
-    max-width: 650px;
-  
+
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 2%;
+	margin: 1%;
+}
+
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
 }
 
 
- .formdiv-container .time-in{
-max-width: 600px;
-height: 170px;
-background-color: #ffffff;
-margin: 15px 15px 15px 15px;
-border-radius: 8px;
-border-top: 13px solid rgb(252, 53, 3);
-} 
-.divp1{
-margin-top: 15px;
-margin-left: 25px;
-font-size: 32px;
-}
-.divp2{
-margin-top: 15px;
-margin-left: 25px;
-font-size: 16px;
-}
-.divp3{
-margin-top: 15px;
-margin-left: 25px;
-font-size: 15px;
-color: rgb(255, 38, 0);
-}
-fieldset{
-position: relative;
-max-width: 600px;
-height: 170px;
-background-color: #ffffff;
-margin: 15px 15px 15px 15px;
-border-radius: 8px;
-border: none;
-}
-.input1{
-    position: absolute;
-    bottom: 40px;
-    margin-left: 25px;
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 50%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none; 
-}
-.divp4{
-    margin-left: 25px;
-    margin-top: 40px;   
-}
-form span{
-    color: rgb(255, 38, 0);  
-}
-.divp5{
-    margin-top: 30px;
-    margin-left: 25px;
-    font-size: 16px; 
-}
-.input2{
-    margin-left: 25px;
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-.input3{
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-label{
-    margin-left: 25px;
-    font-size: 14px;
-    color: rgb(126, 126, 126);
-}
-.button1{
-    width: 120px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(252, 20, 3);
-    margin: 15px 15px 15px 15px;
-    font-size: 25;
-    font-weight: 550;
-    color: #ffffff;
-}
-select{
-    padding: 5px 5px 5px 5px;
-    border: none;
-    outline: none;
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
 
-}
-.input-button{
-    position: absolute;
-    bottom: 35px;
-}
-/* End of form1 style */
-
-.form2{
-    
-    align-self: center;
-    position: relative;
-    font-family: roboto;  
-}
-.form-content{
-    position: absolute;
-    max-width: 650px;
-
-}
-.time-out{
-    max-width: 600px;
-    height: 170px;
-    background-color: #ffffff;
-    margin: 15px 15px 15px 15px;
-    border-radius: 8px;
-    border-top: 13px solid rgb(252, 186, 3);
-}
-.div-p1{
-margin-top: 15px;
-margin-left: 25px;
-font-size: 32px;
-}
-.div-p2{
-margin-top: 15px;
-margin-left: 25px;
-font-size: 16px;
-}
-.div-p3{
-    margin-top: 15px;
-    margin-left: 25px;
-    font-size: 15px;
-    color: rgb(255, 38, 0);  
-}
-.field{
-    position: relative;
-    max-width: 600px;
-    max-height: 170px;
-    background-color: #ffffff;
-    margin: 15px 15px 15px 15px;
-    border-radius: 8px;
-    border: none;  
-}
-.div-p4{
-    margin-left: 25px;
-    margin-top: 40px;
-}
-.input-1{
-    position: absolute;
-    bottom: 40px;
-    margin-left: 25px;
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 50%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-.div-p5{
-    margin-top: 30px;
-    margin-left: 25px;
-    font-size: 16px; 
-}
-.sec-span{
-    color: rgb(255, 38, 0); 
-}
-.input-butt{
-    position: absolute;
-    bottom: 35px; 
-}
-.label2{
-    margin-left: 25px;
-    font-size: 14px;
-    color: rgb(126, 126, 126);  
-}
-.input-2{
-    margin-left: 25px;
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;  
-}
-.input-3{
-    padding: 5px 40px 5px 5px;
-    border-bottom: solid rgb(194, 189, 189);
-    border-bottom-width: 2px;
-    width: 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-.select2{
-    padding: 5px 5px 5px 5px;
-    border: none;
-    outline: none;  
-}
-.button-1{
-    width: 120px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(252, 123, 3);
-    font-size: 25;
-    margin: 15px 15px 15px 15px;
-    font-weight: 550;
-    color: #ffffff;
+	/* Safari and Chrome */	
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+	
 }
 
 
-.footerdiv{
-    text-align: center;
-    max-height: 200px;
 
-}
-.show-menu{
-    display: none;
-}
 
-.checkbtn{
-    font-size: 30px;
-    line-height: normal;
-    float: right;
-    display: none;
-    color: rgba(0, 0, 255, 0.788);
-    margin-top: 7px;
-
+ol{
+	list-style:upper-roman; 
+	margin:1em;
 }
-#check{
-    display: none;
-    float: right;
+img{
+	display: none;
 }
 
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
 
 /* media queries */
 
-/* Destop view */
-@media (min-width: 992px){
-    .col-lg-12{
-        width: 100%;
-    }
+@media (min-width: 901px) and (max-width: 1250px){
+	header, footer{
+		background: none;
+	  }
+	  .col-lg-3{
+		   width: 30%;
+           display: inline-flex;
+	  }
+	  .c0l-lg-8{
+		  display: inline-flex;
+		  width: 60%;
+		  
+	  }
+	  body{
+           width: 100%;
+	  }
+	  .container{
+		  display: flex;
+		  width: 100%;
+	  }
+	  img{
+		display: inline-flex;
+		/* width: 30%; */
+	}
+
+	
 }
-
-/* Tablet View */
-@media (min-width: 768px) and (max-width: 991px){
-    .col-md-12{
-        width: 100%;
-    }
+@media print{
+	   body{
+		   background: none;
+	   }
+	   header h1{
+		   font-size: 1em;
+	   }
+	   nav a{
+           text-decoration: revert;
+		   border: revert;
+		   margin: 0px;
+		   padding: 0px;
+	   }
+	   .p1{
+		   display: none;
+	   }
 }
-
-/* Mobile View */
-@media (max-width:767px){
-    .col-xs-12{
-        width: 100%;
-    }
-    .bg-1{
-        height: 250px;
-    }
-    .bg1{
-        height: 250px;
-    }
-  .checkbtn{
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      display: block;
-  }
-  .nav-list{
-      right: 0px;
-      top: 20px;
-  }
-      
-  .searchbutt{
-     mix-blend-mode: multiply;
-     right: 6%;
-     top: 0px;
-    
-
-  }
-  .search-button{
-      top: 0px;
-      border: 1px solid #c0bebe;
-      width: 150px;
-      background-position: 127px 5px;
-  }
-  .logo{
-      width: 120px;
-      height: 40px;
-  }
-  .nav-list ul{
-    display: block;
-    font-size: 12px;
-    background-color: rgb(50, 50, 180);
-  }
-  .nav-list ul li{
-      margin-bottom: 25px;
-      padding: 5px;
-  }
-  #check:checked ~ .nav-list{
-      transform: translateX(0px);
-      max-height: 198px;
-      max-width: 100%;
-      
-  }
-  .nav-list{
-    max-height: 0px;
-    max-width: 0px;
-    transition: max-height max-width .2s ease-out;
-  }
-  
-  .nav-list li a{
-      color: #ffffff;
-      
-  }
-  li a:hover{
-      color: rgb(0, 0, 0);
-  }
-  nav{
-      height: 40px
-  }
-
-  
-}
-
