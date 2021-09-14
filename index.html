@@ -1,105 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Academo Online Attendance (AOA)</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Responsive Design Lab</title>
+      
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="responsive.css"/>
+<meta charset = "UTF-8">
 </head>
-<body>
-    <nav>
-        <img src="images/Academo_logo.png" width= "150px" height="auto" alt="logo" class="logo">
-        
-        <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"><i class="fa fa-bars"></i>
-            </label>
-        <div class="nav-list">
-	        
-            <ul>
-             <li><a href="#">Home</a></li>
-             <li><a href="#">About Us</a></li>
-             <li><a href="#">Vision</a></li>
-             <li><a href="#">Contact Us</a></li>
-            </ul>
-            </div>
-            <div class="searchbutt"><input type="text" class="search-button" name="search"></div>
-        </nav>
-        <header>
-            <div class="bg-1"><img src="images/bg1.png" alt="background" class="bg1"></div>
-        </header>
-        
-        <div class="container">
+<!--  DO NOT CHANGE ANY PART OF THIS HTML CODE!!! -->
 
-            <div>
-            <form>
-                <div class="formdiv-container  col-lg-12 col-md-12 col-xs-12">
-                    <div class="time-in">
-                        <p class="divp1">TIME IN</p>
-                        <p class="divp2">Attendance login</p>
-                        <p class="divp3">*Required</p>
-                    </div>
-                
-                <fieldset>
-                    <p class="divp4">Name <span>*</span></p><br>
-                    <input type="text" class="input1" name="name" placeholder="Your answer">
-                </fieldset>
+<header>
+	<h1> Web Design is Awesome!!!</h1>
+	<p class="p1">Most of the style is straightforward, but I do have some tricky stuff here. The trickiest being the addition of the text "I guess...." after the h1 element. You will need to use the pseudo-element "after" and the property "content".  (Again, since different browsers have different default styles and since you may have a different zoom to your screen, don't worry about other stylistic differences</p>
+	<nav>
+		<a href="http://www.umich.edu/">University of Michigan</a>
+		<a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
+	</nav>
+  </header>
+<div class="container">
+ <div class="col-lg-3">
+  <section id = "left">
+	<h2>Why I am taking this class</h2>
+	<ol>
+		<li>It is required.</li>
+		<li>I already know it, easy A!</li>
+		<li>My mom wants a webpage.</li>
+	</ol>
+  </section>
+</div>
 
-                <fieldset>
-                    <p class="divp5">Time in <span>*</span></p><br>
-                    <label for="time">Time<br></label>
-                    <div class="input-button">
-                    <input type="time" class="input2" name="time-in">:
-                    <input type="time" class="input3" name="time-in">
-                    <select>
-                        <option value="AM">AM</option>
-                        <option value="PM">PM</option>
-                    </select>
-                </div>
-                </fieldset>
-                <button class="button1">Submit</button>
-                </div>
-            </form>
-        </div>
-            <!-- End of form1 -->
-             <div>
-            <form class="form2">
-            <div class="form-content  col-lg-12 col-md-12 col-xs-12">
-                <div class="time-out">
-                    <p class="div-p1">TIME OUT</p>
-                    <p class="div-p2">Attendance login</p>
-                    <p class="div-p3">*Required</p>
-                </div>
-            
-            <fieldset class="field">
-                <p class="div-p4">Name <span class="sec-span">*</span></p><br>
-                <input type="text" class="input-1" name="name" placeholder="Your answer">
-            </fieldset>
+  <div class="col-lg-8">
+  <section id = "center">
+	<h2>Why I am at University  of Michigan</h2>
+	<div class="myClass">
+		<h3> Ann Arbor</h3>
+		<p >There are many excellent reason to attend the <a href = "umich.edu">University of Michigan</a>.  The academics are top-notch, the students are exceptionally good-looking, and for about six weeks out of the year the weather is almost pleasant.</p>
+	</div>
 
-            <fieldset class="field">
-                <p class="div-p5">Time out <span class="sec-span">*</span></p><br>
-                <label for="label2">Time<br></label>
-                <div class="input-butt">
-                <input type="time" class="input-2" name="time-out">:
-                <input type="time" class="input-3" name="time-out">
-                <select class="select2">
-                    <option value="AM">AM</option>
-                    <option value="PM">PM</option>
-                </select>
-            </div>
-            </fieldset>
-            <button class="button-1">Submit</button>
-            </div>
-        </form>
-    </div>
-        </div>
-        <footer>
-            <div class="footerdiv">
-            <p>&copy 2021 Academo Inc. All right reserved.</p>
-        </div>
-        </footer>
+	<div>
+		<!-- <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzDojh5E0fzvTg4nWYs0JadpTwcS2S1KHOtnVQnlruNqmNvfIk" alt="Football" width="220px" height="140px"> -->
+
+		<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTO8WIJ5ygVENopHPC5Op9z4ua-MoGD-LoUZuEd6vdL-EMro28CWw" alt="Solar Car"  width="200px" height="120px">
+
+		<img src="http://www-personal.umich.edu/~jensenl/visuals/album/annarbor/IMG_1051.jpg" alt="campus" width="200px" height="120px">
+
+		<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzDojh5E0fzvTg4nWYs0JadpTwcS2S1KHOtnVQnlruNqmNvfIk" alt="Football" width="220px" height="140px">
+		
+	</div>
+  </section>
+</div>
+</div>
+
+
+  <footer>
+  	<p>Sample code for Responsive Design .<br/> Colleen van Lent</p>
+  </footer>
+<!-- DO NOT CHANGE ANY PART OF THIS HTML CODE!!! -->
+   
 </body>
 </html>
