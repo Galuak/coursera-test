@@ -76,7 +76,7 @@ footer{
 
 /* media queries */
 
-@media (min-width: 901px) and (max-width: 1250px){
+@media (min-width: 901px){
 	header, footer{
 		background: none;
 	  }
